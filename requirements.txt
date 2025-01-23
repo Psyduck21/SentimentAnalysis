@@ -1,6 +1,7 @@
 altair
 antlr4-python3-runtime
 bs4
+indic_transliteration
 googletrans
 google-api-python-client
 indic-nlp-library
