@@ -1,0 +1,110 @@
+[
+    {
+        "name": "x-acbin",
+        "value": "L30VcnoftFQH0ndo5AG07QaYfEONAvg?Acs18z2sInGySbcxBhmsJUFU4LIB?afS",
+        "domain": ".amazon.in",
+        "path": "/",
+        "expirationDate": 1757947754,
+        "httpOnly": false,
+        "secure": true
+    },
+    {
+        "name": "session-token",
+        "value": "JUsCA2TN43WNv3pg1ixgpAFqzou11gDZIc24G3H3q0Zvd0ib4fqRFVKuYrqicCS401Uk05sQ1FmZPlpchzV3FDtd0EXNP/J7Gz/M0sDfG86K8QOmcjV/XV/F6XtnoQbztt8ZyY/sdcPMlhjjBXPKZsaPXm6125QgNjRIITdUqEW9oRZ5DODTlCdMzSY8J32CTpFvU3Lxoju4u+atCIxLuWBOP8djQ7EH5n7Q9gAI9tgU6ALbCQTDP3LlaJut6A6pFyoFyz6hXWzigsz66/295n2Lks5+ZD5JBFz5vN3WdEi1vBelEFqmseQLkhBg3USB0XRJ+ek03lGRF/L+lA7F8xMIx6d2r7uIkf3FSTqVClEGdGU4skrQHvtFWDX+540w",
+        "domain": ".amazon.in",
+        "path": "/",
+        "expirationDate": 1757947754,
+        "httpOnly": true,
+        "secure": true
+    },
+    {
+        "name": "lc-acbin",
+        "value": "en_IN",
+        "domain": ".amazon.in",
+        "path": "/",
+        "expirationDate": 1757897839,
+        "httpOnly": false,
+        "secure": false
+    },
+    {
+        "name": "i18n-prefs",
+        "value": "INR",
+        "domain": ".amazon.in",
+        "path": "/",
+        "expirationDate": 1757897839,
+        "httpOnly": false,
+        "secure": false
+    },
+    {
+        "name": "session-id-time",
+        "value": "2082787201l",
+        "domain": ".amazon.in",
+        "path": "/",
+        "expirationDate": 1757897838,
+        "httpOnly": true,
+        "secure": false
+    },
+    {
+        "name": "ubid-acbin",
+        "value": "262-1969749-9776461",
+        "domain": ".amazon.in",
+        "path": "/",
+        "expirationDate": 1757897838,
+        "httpOnly": true,
+        "secure": false
+    },
+    {
+        "name": "session-id",
+        "value": "260-6524145-2317440",
+        "domain": ".amazon.in",
+        "path": "/",
+        "expirationDate": 1757897838,
+        "httpOnly": true,
+        "secure": false
+    },
+    {
+        "name": "sst-acbin",
+        "value": "Sst1|PQH--5xkexGYHOHIraQI6ixrCVVheRcPXmVits0pIiQiO8c19A8I2KyxFesYfj-8Abk3aOHU8-f6AFIpKECRib5jKwCbA9Q8CjadkLNNWH6hcHnYv0X-qi4ZSw2dilYWo9z4xM14Hi0io2P1NrdPyc-MjnkjaLPN3q_9S31roKbriOjbiVDMgZxN-h30XFwji5T2uV4oik5Zo0PjjwnOQdeG_9cQR2cYCZXlWggz7lIxNTaI_Es-qbZYvG3GLCdIkTgq9gEAwIOkFlsNblhDSJFyX0k89pC__gQ_zSAB9ZCWD8U",
+        "domain": ".amazon.in",
+        "path": "/",
+        "expirationDate": 1757781435,
+        "httpOnly": true,
+        "secure": true
+    },
+    {
+        "name": "sess-at-acbin",
+        "value": "XIPxXnZbVmBb/ZS/gPzptLBEpW1aDYTDg+Vs1WWs19Q=",
+        "domain": ".amazon.in",
+        "path": "/",
+        "expirationDate": 1757781435,
+        "httpOnly": true,
+        "secure": true
+    },
+    {
+        "name": "at-acbin",
+        "value": "Atza|IwEBIPJ-4cKX_mc1NScKHJUbtx4U1HHkZwEZA8degireNaX89SMBL7YzOZFxNUHOEYbWm1khmMYQz6TlY1XnUApqsxKPqQFRoQVKlsWYbqyhvKIoTZHhv28lvXCHfRBO_K0gzHdOh0bWlSOUkWc97aLDEeQKw6QXP3Sf6gq7Ucdnd63yllnz5moJElS9nhtOq29k3l8qoL6FpPfmRpF9ljcwdYHY7mjhBe70HJyPBYwVr_vnXQ",
+        "domain": ".amazon.in",
+        "path": "/",
+        "expirationDate": 1757781435,
+        "httpOnly": true,
+        "secure": true
+    },
+    {
+        "name": "urtk",
+        "value": "%7B%22at%22%3A%22Atna%7CEwICILYe3mxO5sCwLD2L0sroSOnok7R2A5uvyE8EiBKNbH6Kv8J_JOqDPTNUvtqxtl4X5kxVkzBY2Nn0kgXm0hEw19Ldc_MGAhP07acDPwHbrfAa3rdsW2Gs5sWgUp06szCUIEOBluQR796WIMdZ9nQQWAFNUhr6EbWDfnEIikxkRTJKJAjcxDGEJywHDmlexs5beQeXR2oT16pFfAWxAI40Pj7UFdziLfkH7o1iepU_0Nr3FalQH7vy1cLtangj8BocsZ-7CAocfb3SiC9wXfG27sefV-At4YlKLbi6-ARBNEr9gTFox5YBWxVIWMNL2mgcVqNQx-0TE5RsiVYl9uytbJtkE1EbmLkhAo2uzSYHpSAugQ%22%2C%22atTtl%22%3A1728217096618%2C%22rt%22%3A%22Atnr%7CEwICIL6ZCjpc_-B1OCRE6fz9xIQMoXzTNhjlnMGUp7mSVSYYRlP68GKwuBXjZIdxYYofL_6nCHGNZ3js6dxVSx9IEZP-uB2HCR-uMyEHU5XomGGSxH0iET9m9_xTyCEUSj-rq83rw_2MYf5hpudRtXt4EE8kFmFJRZOJHwuzTvzYMnWSc6pVW1GtfeTTOlkn7uxrRhCKgF8jaTT2PKfzaLsDkgDVAu_6oe3JCDe418xJtHcPK-ayIQqZtpnpsAGo1Ii4n3koOI6DGy61YPgoxh8johVzkhGESN4OPvS9lNFwNPQEaKHLUPndIF1_tM5IKkxHIIfXsozBLuzOgQ4GdIW-hAyB%22%7D",
+        "domain": ".www.amazon.in",
+        "path": "/",
+        "expirationDate": 1749530298,
+        "httpOnly": true,
+        "secure": true
+    },
+    {
+        "name": "csm-hit",
+        "value": "tb:SSC2ESZ2CQNET6JNK93W+s-SSC2ESZ2CQNET6JNK93W|1737089478633&t:1737089478633&adb:adblk_no",
+        "domain": ".www.amazon.in",
+        "path": "/",
+        "expirationDate": 1737661878,
+        "httpOnly": false,
+        "secure": false
+    }
+]
