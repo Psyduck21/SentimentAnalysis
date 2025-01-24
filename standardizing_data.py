@@ -11,6 +11,7 @@ import logging
 from logging.handlers import RotatingFileHandler
 import warnings
 from concurrent.futures import ThreadPoolExecutor
+from deep_translator import GoogleTranslator
 import re
 
 warnings.filterwarnings("ignore")
@@ -68,8 +69,8 @@ def transliterate_and_translate(text):
     """Transliterate text using Indic Transliterate and translate it to English."""
     try:
         # Detect the language of the input text
-        detected_lang = translator.detect(text).lang
-        # print(f"Detected Language: {detected_lang}")
+        detected_lang = GoogleTranslator(source='auto', target='en').detect(text)
+        logger.info(f"Detected Language: {detected_lang}")
         
         if detected_lang != "en":
             # Transliterate the text if it's in Hindi or similar languages
@@ -79,7 +80,7 @@ def transliterate_and_translate(text):
                 transliterated = text  # No transliteration for unsupported languages
 
             # Translate the transliterated text to English
-            translated_text = translator.translate(transliterated, dest="en").text
+            translated_text = GoogleTranslator(source=detected_lang, target="en").translate(transliterated)
             return translated_text
         
         # If the text is already in English, return it as is
