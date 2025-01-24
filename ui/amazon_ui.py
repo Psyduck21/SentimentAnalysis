@@ -28,7 +28,7 @@ class AmazonUI:
             
             with col1:
                 # Display the product image
-                st.image(details['img'], width=200)
+                st.image(details['img'], width=400)
 
             with col2:
                 # Display product details
