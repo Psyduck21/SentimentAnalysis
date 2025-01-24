@@ -12,6 +12,7 @@ from logging.handlers import RotatingFileHandler
 import warnings
 from concurrent.futures import ThreadPoolExecutor
 from langdetect import detect
+from deep_translator import GoogleTranslator
 import re
 
 warnings.filterwarnings("ignore")
