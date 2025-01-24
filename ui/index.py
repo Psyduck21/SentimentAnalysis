@@ -82,9 +82,11 @@ def home():
     # Contact Section
     elif selected == "Contact":
         st.markdown("""
-    - **Email**: [📧 akshat.prj@gmail.com](mailto:akshat.prj@gmail.com)
-    - **Github**: [🐱 Akshat's GitHub](https://github.com/yourgithubusername)
-    - **LinkedIn**: [🔗 Akshat's LinkedIn](https://www.linkedin.com/in/yourlinkedinprofile/)
+    - **Email**: [📧 Akshat's Email](mailto:akshat.prj@gmail.com)
+    
+    - **Github**: [🐱 Akshat's GitHub](https://github.com/Psyduck21)
+    
+    - **LinkedIn**: [🔗 Akshat's LinkedIn](www.linkedin.com/in/akshatkprj21)
     """)
 
 
