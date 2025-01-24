@@ -12,7 +12,7 @@ def home():
         menu_title=None,
         # menu_icon="menu-up",
         options=['YouTube','Amazon', 'About', 'Contact'],
-        icons=["amazon", "youtube", "info-circle", "envelope"],
+        icons=["youtube","amazon", "info-circle", "envelope"],
         default_index=0,
         orientation="horizontal",
     )
@@ -31,6 +31,7 @@ def home():
                     details = fetch_amazon_product_details(input_url)
                     amazon_ui = AmazonUI(input_url)
                     amazon_ui.display_amazon_details(details)
+                    st.write("---")
                     amazon_ui.display_sentiment_analysis()
                 else:
                     st.write("**INVALID URL** : Please enter the amazon url")
