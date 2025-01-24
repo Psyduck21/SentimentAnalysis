@@ -26,15 +26,14 @@ def home():
         with open("./textfiles/url.txt", "w") as f:
             f.write(input_url)
         if input_url:
-            if match_url(input_url) == "Amazon":
-
-
-                details = fetch_amazon_product_details(input_url)
-                amazon_ui = AmazonUI(input_url)
-                amazon_ui.display_amazon_details(details)
-                amazon_ui.display_sentiment_analysis()
-            else:
-                st.write("**INVALID URL** : Please enter the amazon url")
+            if st.button('Process'):
+                if match_url(input_url) == "Amazon":
+                    details = fetch_amazon_product_details(input_url)
+                    amazon_ui = AmazonUI(input_url)
+                    amazon_ui.display_amazon_details(details)
+                    amazon_ui.display_sentiment_analysis()
+                else:
+                    st.write("**INVALID URL** : Please enter the amazon url")
 
             # Clear Button
         if st.button("Clear"):
