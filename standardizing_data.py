@@ -11,7 +11,7 @@ import logging
 from logging.handlers import RotatingFileHandler
 import warnings
 from concurrent.futures import ThreadPoolExecutor
-from deep_translator import GoogleTranslator
+from langdetect import detect
 import re
 
 warnings.filterwarnings("ignore")
@@ -68,8 +68,8 @@ def clean_text(text):
 def transliterate_and_translate(text):
     """Transliterate text using Indic Transliterate and translate it to English."""
     try:
-        # Detect the language of the input text
-        detected_lang = GoogleTranslator(source='auto', target='en').detect(text)
+        # Detect the language of the input text using langdetect
+        detected_lang = detect(text)
         logger.info(f"Detected Language: {detected_lang}")
         
         if detected_lang != "en":
@@ -89,7 +89,6 @@ def transliterate_and_translate(text):
     except Exception as e:
         logger.error(f"Error during transliteration/translation: {e}", exc_info=True)
         return text  # Fallback to the original text
-
 
 def process_text(text):
     """Remove stop words and correct spelling."""

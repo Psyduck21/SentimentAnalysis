@@ -5,6 +5,7 @@ indic_transliteration==2.3.69
 googletrans==4.0.0-rc1
 deep_translator
 google-api-python-client
+langdetect
 joblib
 langdetect
 nltk
