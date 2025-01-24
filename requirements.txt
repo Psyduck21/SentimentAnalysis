@@ -2,7 +2,7 @@ altair
 antlr4-python3-runtime
 bs4
 indic_transliteration
-googletrans
+googletrans==4.0.0-rc1
 google-api-python-client
 indic-nlp-library
 joblib

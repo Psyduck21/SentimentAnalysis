@@ -94,7 +94,9 @@ def process_text(text):
     """Remove stop words and correct spelling."""
     filtered_words = [word for word in text.split() if word.lower() not in stop_words]
     filtered_text = " ".join(filtered_words)
-    return filtered_text
+    blob = TextBlob(filtered_text)
+    corrected_text = str(blob.correct())
+    return corrected_text
 
 
 # def batch_process(data, func, batch_size=100):
