@@ -1,7 +1,7 @@
 altair
 antlr4-python3-runtime
 bs4
-indic_transliteration
+indic_transliteration==2.3.69
 googletrans==4.0.0-rc1
 google-api-python-client
 indic-nlp-library

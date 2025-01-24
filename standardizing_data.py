@@ -69,7 +69,7 @@ def transliterate_and_translate(text):
     try:
         # Detect the language of the input text
         detected_lang = translator.detect(text).lang
-        print(f"Detected Language: {detected_lang}")
+        # print(f"Detected Language: {detected_lang}")
         
         if detected_lang != "en":
             # Transliterate the text if it's in Hindi or similar languages
@@ -86,7 +86,7 @@ def transliterate_and_translate(text):
         return text
 
     except Exception as e:
-        logger.error(f"Error during transliteration/translation: {e}")
+        logger.error(f"Error during transliteration/translation: {e}", exc_info=True)
         return text  # Fallback to the original text
 
 
